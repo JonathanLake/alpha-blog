@@ -21,6 +21,19 @@ $navbar-default-bg: #b13131;
     text-align: center;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: #992b2b
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+}
+
 .jumbotron {
     background-image: asset-url('ruby_on_rails.png');
     background-size: cover;
