@@ -50,6 +50,10 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  # temporary fix to minitest 5.11.1 issue 
+  gem 'minitest', '~>5.10.3'
+  # Required for assert_template
+  gem 'rails-controller-testing'
 end
 
 group :development do
